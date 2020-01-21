@@ -25,3 +25,6 @@ The *drug_a.csv* is the factor matrix for the  drug-A axis. Same rule applies fo
 This folder contains the decomposition results for final DTF model. Note that here 
 *drug_drug_synergy_original_10_fold.csv* was used and fold 0 was used for validation. Therefore the index of fold 0 was set as missing before tensor decomposition. The results are also provided in the form of factor matrices. 
 The meaning of each file is the same as in previous folder.
+
+### tensor
+This folder contains the tensor build based on the *drug_drug_synergy_original.csv*. Note that the missing drug synergy is set as 0.

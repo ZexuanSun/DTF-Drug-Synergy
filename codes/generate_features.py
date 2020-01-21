@@ -74,7 +74,15 @@ outfile.close()
 #get  features for missing pairs and record the index of missing pairs
 miss_features = np.zeros(240*39*3000).reshape(240*39,3000)
 miss_index = np.zeros(240*39)
+
+#for each cell line, the missing drug combinations are the same,
+#all the missing drug combinations can be recorded in this list,
+#there are 120 drug combination with unknown drug synergy score for each cell line
 miss_list = [0, 5, 6, 8, 10, 12, 14, 17, 18, 19, 26, 27, 29, 33, 34, 35]
+
+
+
+
 
 num = 0
 for z in range(39):#z
