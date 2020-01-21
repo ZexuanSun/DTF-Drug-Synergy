@@ -1,0 +1,40 @@
+Cell line,Indication,RAS/RAF Mutation Status
+KPL1,Breast,wildtype
+OCUBM,Breast,wildtype
+T47D,Breast,wildtype
+EFM192B,Breast,unknown
+MDAMB436,Breast,wildtype
+ZR751,Breast,HRASE162K mutation
+DLD1,Colon,KRASG13D mutation
+RKO,Colon,BRAFV600E mutation
+HT29,Colon,wildtype
+SW620,Colon,KRASG12V mutation
+SW837,Colon,KRASG12C mutation
+COLO320DM,Colon,wildtype
+HCT116,Colon,KRASG13D mutation
+LOVO,Colon,wildtype
+MSTO,Lung,wildtype
+NCIH1650,Lung,wildtype
+NCIH2122,Lung,KRASG12C mutation
+NCIH520,Lung,wildtype
+SKMES1,Lung,wildtype
+A427,Lung,KRASG12D mutation
+NCIH460,Lung,KRASQ61H mutation
+NCIH23,Lung,wildtype
+A375,Melanoma,BRAFV600E mutation
+A2058,Melanoma,wildtype
+SKMEL30,Melanoma,NRASQ61K mutation
+UACC62,Melanoma,BRAFV600E
+RPMI7951,Melanoma,BRAFV600E mutation
+HT144,Melanoma,BRAFV600E mutation
+A2780,Ovarian,wildtype
+SKOV3,Ovarian,wildtype
+PA1,Ovarian,NRASG12D mutation
+ES2,Ovarian,BRAFV600E mutation
+OVCAR3,Ovarian,wildtype
+OV90,Ovarian,wildtype
+UWB1289BRCA1,Ovarian,wildtype
+CAOV3,Ovarian,wildtype
+UWB1289,Ovarian,wildtype
+VCAP,Prostate,wildtype
+LNCAP,Prostate,wildtype
