@@ -11,6 +11,12 @@ To implement the DTF model, firstly, I used **R** to preprocess the raw data to 
 To decompose the tensor in matlab, I employed the [Tensor Toolbox](http://www.tensortoolbox.org) and  [L-BFGS-B code](http://users.eecs.northwestern.edu/~nocedal/lbfgsb.html). The Matlab codes are not provided, since with the tensor given, it is not difficult to implement. The results of the tensor decomposition are provided in the form of factor matrices. The python codes are mainly concerning how to generate features based on the output of Matlab and the code to build the final DTF model to do predictions on missing drug combinations are given.
 
 
+Note that for the convenience of programming, each drug combination was encoded into an index. To be specific, I used 
+the formula below:
+
+drug_A_index + drug_B_index * 38 + cell_line_index * 38 * 38  
+
+to be the index of a particular drug combination. Therefore, I can decode the index to get the original drug combination information.
 
 The manuscript of this research project is now avaliable on [arXiv](https://arxiv.org/abs/1911.10313). If you have any questions or suggestions, please feel free to contact me :).
 
