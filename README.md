@@ -15,6 +15,6 @@ Note that for the convenience of programming, each drug combination was encoded 
 the formula: drug_A_index + drug_B_index * 38 + cell_line_index * 38 * 38,
 to encode drug combinations. Therefore, I can decode the index to get the original drug combination information.
 
-The manuscript of this research project is now avaliable on [arXiv](https://arxiv.org/abs/1911.10313). If you have any questions or suggestions, please feel free to contact me :).
+The manuscript of this research project is now avaliable on [arXiv](https://arxiv.org/abs/1911.10313).  Note that the manuscript on arXiv is not the latest version. Actually, the latest revised version has been accepted by *Bioinformatics*. I will update later. If you have any questions or suggestions, please feel free to contact me :).
 
 
