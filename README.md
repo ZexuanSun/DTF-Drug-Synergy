@@ -20,7 +20,7 @@ You can refer to the [published paper](https://academic.oup.com/bioinformatics/a
 
 If you would like to cite DTF, please cite the following publication:
 
->Zexuan Sun, Shujun Huang, Peiran Jiang, Pingzhao Hu, DTF: Deep Tensor Factorization for Predicting Anticancer Drug Synergy, *[Bioinformatics](https://academic.oup.com/bioinformatics/)*,  btaa287, https://doi.org/10.1093/bioinformatics/btaa287
+>Zexuan Sun, Shujun Huang, Peiran Jiang, Pingzhao Hu, DTF: Deep Tensor Factorization for Predicting Anticancer Drug Synergy, [Bioinformatics](https://academic.oup.com/bioinformatics/),  btaa287, https://doi.org/10.1093/bioinformatics/btaa287.
 
 
 <!--  The manuscript of this research project is now avaliable on [arXiv](https://arxiv.org/abs/1911.10313).  Note that the manuscript on arXiv is not the latest version. Actually, the latest revised version has been accepted by *[Bioinformatics](https://academic.oup.com/bioinformatics/)*. I will update later. If you have any questions or suggestions, please feel free to contact me :).  -->
