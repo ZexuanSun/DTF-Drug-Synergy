@@ -12,7 +12,7 @@ To decompose the tensor in matlab, I employed the [Tensor Toolbox](http://www.te
 Note that for the convenience of programming, each drug combination was encoded into an index. To be specific, I used 
 the formula: drug_A_index + drug_B_index * 38 + cell_line_index * 38 * 38,
 to encode drug combinations. Therefore, I can decode the index to get the original drug combination information.
-You can refer to the [published paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa287/5830267?redirectedFrom=fulltext) for detailed algorithm. And if you have any questions, please feel free to contact me.
+You can refer to the [published paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa287/5830267?redirectedFrom=fulltext) for detailed algorithm. And if you have any questions, please feel free to contact me :).
 
 
 
