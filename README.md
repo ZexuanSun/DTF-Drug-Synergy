@@ -6,7 +6,7 @@ from the study of ONeil *et al*.
 
 To implement the DTF model, firstly, I used **R** to preprocess the raw data to build the tensor to be used next for
 **Python** and **MATLAB**. For some specific cell lines, there were experiments carried out multiple times for the same drug pairs. In order to construct the three-dimensional (3D) drug-drug-cell-line tensor, we averaged these scores for the same drug-drug pairs. The resulting tensor is provided in the data_sets folder.
-To decompose the tensor in matlab, I employed the [Tensor Toolbox](http://www.tensortoolbox.org) and  [L-BFGS-B code](http://users.eecs.northwestern.edu/~nocedal/lbfgsb.html).  The results of the tensor decomposition are provided in the form of factor matrices. The python codes are mainly concerning how to generate features based on the output of Matlab and the code to build the final DTF model to do predictions on missing drug combinations are given.
+To decompose the tensor in matlab, I employed the [Tensor Toolbox](http://www.tensortoolbox.org) and  [L-BFGS-B code](http://users.eecs.northwestern.edu/~nocedal/lbfgsb.html).  The results of the tensor decomposition are provided in the form of factor matrices. The python codes are mainly concerning how to generate features based on the output of Matlab and the codes to build the final DTF model to do predictions on missing drug combinations are given.
 
 
 Note that for the convenience of programming, each drug combination was encoded into an index. To be specific, I used 
