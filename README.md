@@ -12,7 +12,7 @@ To decompose the tensor in matlab, I employed the [Tensor Toolbox](http://www.te
 Note that for the convenience of programming, each drug combination was encoded into an index. To be specific, I used 
 the formula: drug_A_index + drug_B_index * 38 + cell_line_index * 38 * 38,
 to encode drug combinations. Therefore, I can decode the index to get the original drug combination information.
-You can refer to the [published paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa287/5830267?redirectedFrom=fulltext) for detailed algorithm. And if you have any questions, please feel free to contact me :).
+You can refer to the [published paper](https://academic.oup.com/bioinformatics/article-abstract/36/16/4483/5830267) for detailed algorithm. And if you have any questions, please feel free to contact me :).
 
 
 
@@ -20,8 +20,7 @@ You can refer to the [published paper](https://academic.oup.com/bioinformatics/a
 
 If you would like to cite DTF, please cite the following publication:
 
->Z Sun, S Huang, P Jiang, P Hu (2020). DTF: Deep Tensor Factorization for Predicting Anticancer Drug Synergy, *[Bioinformatics](https://academic.oup.com/bioinformatics/)*,  btaa287, https://doi.org/10.1093/bioinformatics/btaa287.
-
+>Zexuan Sun, Shujun Huang, Peiran Jiang, Pingzhao Hu, DTF: Deep Tensor Factorization for predicting anticancer drug synergy, Bioinformatics, Volume 36, Issue 16, 15 August 2020, Pages 4483–4489, https://doi.org/10.1093/bioinformatics/btaa287.
 
 <!--  The manuscript of this research project is now avaliable on [arXiv](https://arxiv.org/abs/1911.10313).  Note that the manuscript on arXiv is not the latest version. Actually, the latest revised version has been accepted by *[Bioinformatics](https://academic.oup.com/bioinformatics/)*. I will update later. If you have any questions or suggestions, please feel free to contact me :).  -->
 
